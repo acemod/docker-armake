@@ -2,7 +2,7 @@
 
 Docker image with Armake and various pre-installed tooling aimed towards Python, to help speed up build times in CI pipelines.
 
-[![Docker Build Statu](https://img.shields.io/docker/build/acemod/armake.svg)](https://hub.docker.com/r/acemod/armake/)
+[![Docker Build Statu](https://img.shields.io/docker/pulls/acemod/armake.svg)](https://hub.docker.com/r/acemod/armake/)
 
 ----
 
