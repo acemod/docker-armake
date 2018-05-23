@@ -1,0 +1,57 @@
+version: '2.4'
+
+services:
+  latest:
+    image: docker.io/acemod/armake:latest
+    build:
+      context: ./src/v0.6
+      args:
+        REVISION: v0.6.3
+
+# v0.6 series
+  v0.6:
+    image: docker.io/acemod/armake:v0.6
+    build:
+      context: ./src/v0.6
+      args:
+        REVISION: v0.6.3
+  v0.6.3:
+    image: docker.io/acemod/armake:v0.6.3
+    build:
+      context: ./src/v0.6
+      args:
+        REVISION: v0.6.3
+  v0.6.2:
+    image: docker.io/acemod/armake:v0.6.2
+    build:
+      context: ./src/v0.6
+      args:
+        REVISION: v0.6.2
+  v0.6.1:
+    image: docker.io/acemod/armake:v0.6.1
+    build:
+      context: ./src/v0.6
+      args:
+        REVISION: v0.6.1
+  v0.6.0:
+    image: docker.io/acemod/armake:v0.6.0
+    build:
+      context: ./src/v0.6
+      args:
+        REVISION: v0.6
+
+# v0.5 series
+  v0.5.1:
+    image: docker.io/acemod/armake:v0.6.3
+    build:
+      context: ./src/v0.5
+      args:
+        REVISION: v0.6.3
+
+# Moving targets
+  master:
+    image: docker.io/acemod/armake:master
+    build:
+      context: ./src/v0.6
+      args:
+        REVISION: master
