@@ -42,11 +42,11 @@ services:
 
 # v0.5 series
   v0.5.1:
-    image: docker.io/acemod/armake:v0.6.3
+    image: docker.io/acemod/armake:v0.5.1
     build:
       context: ./src/v0.5
       args:
-        REVISION: v0.6.3
+        REVISION: v0.5.1
 
 # Moving targets
   master:
