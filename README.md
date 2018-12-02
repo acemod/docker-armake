@@ -6,7 +6,12 @@ This uses Ubuntu trusty and installs Python and [Armake](https://github.com/Koff
 
 [![Docker Build Statu](https://img.shields.io/docker/pulls/acemod/armake.svg)](https://hub.docker.com/r/acemod/armake/)
 
-----
+## Table of Contents
+
+- [Available tools](#availble-tools)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [License](#license)
 
 ## Available tools
 
@@ -45,3 +50,11 @@ jobs:
           command: |
             armake --help
 ```
+
+## Contribute
+
+PRs accepted. All issues should be reported in the [Github issue tracker](https://github.com/acemod/docker-armake/issues).
+
+## License
+
+[MIT © ACE Mod](LICENSE)
