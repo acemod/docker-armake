@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=ubuntu:trusty
+ARG BASE_IMAGE=ubuntu:latest
 
 FROM ${BASE_IMAGE} as build
 RUN apt-get update && apt-get install -y software-properties-common bison flex git make \
